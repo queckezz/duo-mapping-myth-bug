@@ -1,18 +1,16 @@
 
-build-bug:
+build-myth:
 	@rm -rf components/duo.json
 	@duo \
 		--use duo-myth \
 		--output build \
-		lib/index.css \
-		lib/index.js
+		lib/index.css
 
 build:
 	@rm -rf components/duo.json
 	@duo \
 		--output build \
-		lib/index.css \
-		lib/index.js
+		lib/index.css
 
 
 .PHONY: build
