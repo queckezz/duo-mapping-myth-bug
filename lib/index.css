@@ -1,0 +1,9 @@
+
+body {
+  padding: 50px;
+  font-family: Arial;
+  color: red;
+}
+
+@import './button.css';
+@import './checkbox.css';

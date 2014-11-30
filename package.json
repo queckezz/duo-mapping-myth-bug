@@ -1,0 +1,7 @@
+{
+  "name": "duo-mapping-myth-bug",
+  "private": true,
+  "dependencies": {
+    "duo-myth": "0.0.4"
+  }
+}
